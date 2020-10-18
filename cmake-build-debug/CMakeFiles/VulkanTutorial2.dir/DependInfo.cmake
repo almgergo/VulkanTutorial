@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/Projects/C++/VulkanTutorial2/src/app/VulkanApplication.cpp" "E:/Projects/C++/VulkanTutorial2/cmake-build-debug/CMakeFiles/VulkanTutorial2.dir/src/app/VulkanApplication.cpp.obj"
   "E:/Projects/C++/VulkanTutorial2/src/main.cpp" "E:/Projects/C++/VulkanTutorial2/cmake-build-debug/CMakeFiles/VulkanTutorial2.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")

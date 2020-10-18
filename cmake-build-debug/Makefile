@@ -127,6 +127,33 @@ VulkanTutorial2\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\VulkanTutorial2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VulkanTutorial2.dir\build
 .PHONY : VulkanTutorial2\fast
 
+src\app\VulkanApplication.obj: src\app\VulkanApplication.cpp.obj
+
+.PHONY : src\app\VulkanApplication.obj
+
+# target to build an object file
+src\app\VulkanApplication.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VulkanTutorial2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.obj
+.PHONY : src\app\VulkanApplication.cpp.obj
+
+src\app\VulkanApplication.i: src\app\VulkanApplication.cpp.i
+
+.PHONY : src\app\VulkanApplication.i
+
+# target to preprocess a source file
+src\app\VulkanApplication.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VulkanTutorial2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.i
+.PHONY : src\app\VulkanApplication.cpp.i
+
+src\app\VulkanApplication.s: src\app\VulkanApplication.cpp.s
+
+.PHONY : src\app\VulkanApplication.s
+
+# target to generate assembly for a file
+src\app\VulkanApplication.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\VulkanTutorial2.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.s
+.PHONY : src\app\VulkanApplication.cpp.s
+
 src\main.obj: src\main.cpp.obj
 
 .PHONY : src\main.obj
@@ -163,6 +190,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... VulkanTutorial2
+	@echo ... src/app/VulkanApplication.obj
+	@echo ... src/app/VulkanApplication.i
+	@echo ... src/app/VulkanApplication.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

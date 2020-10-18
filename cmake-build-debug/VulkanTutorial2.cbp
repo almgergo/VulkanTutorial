@@ -90,6 +90,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/Projects/C++/VulkanTutorial2/src/app/VulkanApplication.cpp">
+			<Option target="VulkanTutorial2"/>
+		</Unit>
+		<Unit filename="E:/Projects/C++/VulkanTutorial2/src/app/VulkanApplication.h">
+			<Option target="VulkanTutorial2"/>
+		</Unit>
 		<Unit filename="E:/Projects/C++/VulkanTutorial2/src/main.cpp">
 			<Option target="VulkanTutorial2"/>
 		</Unit>

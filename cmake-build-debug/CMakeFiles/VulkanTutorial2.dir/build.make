@@ -80,19 +80,40 @@ CMakeFiles\VulkanTutorial2.dir\src\main.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\VulkanTutorial2.dir\src\main.cpp.s /c E:\Projects\C++\VulkanTutorial2\src\main.cpp
 <<
 
+CMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.obj: CMakeFiles\VulkanTutorial2.dir\flags.make
+CMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.obj: ..\src\app\VulkanApplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\Projects\C++\VulkanTutorial2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/VulkanTutorial2.dir/src/app/VulkanApplication.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.obj /FdCMakeFiles\VulkanTutorial2.dir\ /FS -c E:\Projects\C++\VulkanTutorial2\src\app\VulkanApplication.cpp
+<<
+
+CMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/VulkanTutorial2.dir/src/app/VulkanApplication.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe > CMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\Projects\C++\VulkanTutorial2\src\app\VulkanApplication.cpp
+<<
+
+CMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/VulkanTutorial2.dir/src/app/VulkanApplication.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.s /c E:\Projects\C++\VulkanTutorial2\src\app\VulkanApplication.cpp
+<<
+
 # Object files for target VulkanTutorial2
 VulkanTutorial2_OBJECTS = \
-"CMakeFiles\VulkanTutorial2.dir\src\main.cpp.obj"
+"CMakeFiles\VulkanTutorial2.dir\src\main.cpp.obj" \
+"CMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.obj"
 
 # External object files for target VulkanTutorial2
 VulkanTutorial2_EXTERNAL_OBJECTS =
 
 VulkanTutorial2.exe: CMakeFiles\VulkanTutorial2.dir\src\main.cpp.obj
+VulkanTutorial2.exe: CMakeFiles\VulkanTutorial2.dir\src\app\VulkanApplication.cpp.obj
 VulkanTutorial2.exe: CMakeFiles\VulkanTutorial2.dir\build.make
 VulkanTutorial2.exe: C:\Software\glfw-3.3.2.bin.WIN64\lib-vc2019\glfw3.lib
 VulkanTutorial2.exe: C:\VulkanSDK\1.2.154.1\Lib\vulkan-1.lib
 VulkanTutorial2.exe: CMakeFiles\VulkanTutorial2.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Projects\C++\VulkanTutorial2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable VulkanTutorial2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\Projects\C++\VulkanTutorial2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable VulkanTutorial2.exe"
 	"C:\Program Files\JetBrains\CLion 2020.2.4\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\VulkanTutorial2.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100183~1.0\x64\mt.exe --manifests  -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1427~1.291\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\VulkanTutorial2.dir\objects1.rsp @<<
  /out:VulkanTutorial2.exe /implib:VulkanTutorial2.lib /pdb:E:\Projects\C++\VulkanTutorial2\cmake-build-debug\VulkanTutorial2.pdb /version:0.0  /machine:x64 /debug /INCREMENTAL /subsystem:console  C:\Software\glfw-3.3.2.bin.WIN64\lib-vc2019\glfw3.lib C:\VulkanSDK\1.2.154.1\Lib\vulkan-1.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

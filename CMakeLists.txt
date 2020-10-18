@@ -3,7 +3,9 @@ project(VulkanTutorial2)
 
 set(CMAKE_CXX_STANDARD 17)
 
+
 add_executable(VulkanTutorial2 src/main.cpp)
+target_sources(VulkanTutorial2 PRIVATE src/app/VulkanApplication.cpp)
 
 include_directories(C:\\Software\\glfw-3.3.2.bin.WIN64\\include)
 include_directories(C:\\Software\\glm-0.9.9.8)
